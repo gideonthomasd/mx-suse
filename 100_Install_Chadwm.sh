@@ -8,7 +8,7 @@
 
 ###Install Packman#############
 sudo zypper ar -cfp 90 https://ftp.fau.de/packman/suse/openSUSE_Tumbleweed/ packman
-user $ sudo zypper dup --from packman --allow-vendor-change
+sudo zypper dup --from packman --allow-vendor-change
 
 
   
@@ -83,7 +83,7 @@ cp bashrc ~/.bashrc
 #sudo dnf install i3lock-color -y
 
 #sudo dnf remove pipewire
-sudo zypper xfce4-genmon-plugin xfce4-weather-plugin
+sudo zypper install xfce4-genmon-plugin xfce4-weather-plugin
 
 sudo zypper install audacious make gcc libXft-devel libX11-devel libXinerama-devel imlib2 imlib2-devel xsetroot 
 
@@ -92,9 +92,11 @@ sudo zypper install jgmenu neofetch xdotool feh geany ffmpeg lxtask pavucontrol 
 
 #libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential
 
+cp config.rasi ~/.config/rofi/config.rasi
+sudo yast2 -i volumeicon-0.5.1-1.130.x86_64.rpm
 ######Chadwm#############
 cd ~/.config/arco-chadwm/chadwm
 sudo make clean install
 
 sudo zypper install yt-dlp
-cp config.rasi ~/.config/rofi/config.rasi
+
