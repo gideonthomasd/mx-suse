@@ -30,7 +30,7 @@ cpu() {
 
 pkg_updates() {
  # updates=$(checkupdates | wc -l)   # arch
-	updates=$(dnf check-update | wc -l)
+	updates=$(zypper lu | wc -l)
   if [ -z "$updates" ]; then
     printf "  ^c$green^    Fully Updated"
   else
