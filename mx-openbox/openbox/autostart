@@ -1,0 +1,15 @@
+xrandr -s 1920x1080
+audacious &
+#tint2 -c ~/.config/tint2/dracula.tint2rc &
+#xfce4-panel &
+tint2 &
+lxpolkit &
+parcellite &
+#blueman-applet &
+picom &
+plank &
+volumeicon &
+#conky -c ~/.config/conky/sysinfo_mbcolor.conkyrc &
+
+~/.config/zentile_linux_amd64 &
+#lxappearance &
