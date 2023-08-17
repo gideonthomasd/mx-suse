@@ -1,0 +1,5 @@
+
+//@theme "/usr/share/rofi/themes/docu.rasi"
+//@theme "/usr/share/rofi/themes/sidebar.rasi"
+@import "/usr/share/rofi/themes/sidebar.rasi"
+@theme "/home/phil/.local/share/rofi/themes/rounded-blue-dark.rasi"
