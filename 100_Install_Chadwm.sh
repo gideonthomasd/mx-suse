@@ -93,10 +93,10 @@ sudo zypper install jgmenu neofetch xdotool feh geany ffmpeg lxtask pavucontrol 
 #libx11-dev libxft-dev libimlib2 libimlib2-dev libxinerama-dev build-essential
 
 cp config.rasi ~/.config/rofi/config.rasi
-sudo yast2 -i volumeicon-0.5.1-1.130.x86_64.rpm
+#sudo yast2 -i volumeicon-0.5.1-1.130.x86_64.rpm
 ######Chadwm#############
 cd ~/.config/arco-chadwm/chadwm
 sudo make clean install
 
 sudo zypper install yt-dlp
-
+echo "Install gsimplecal and volumeicon by right clicking. Press ignore"
