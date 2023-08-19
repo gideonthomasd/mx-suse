@@ -2,7 +2,7 @@
 
 pkill -f zentile_linux_amd64
 
-
+sleep 0.2
 
 ~/.config/zentile_linux_amd64 &
 
